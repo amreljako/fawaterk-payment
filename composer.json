@@ -1,0 +1,29 @@
+{
+  "name": "amreljako/fawaterk-payment",
+  "description": "A Laravel package to integrate with Fawaterk payment API including invoice creation and secure webhook validation.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amr Elsayed",
+      "email": "amreljako@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmrEljako\\FawaterkPayment\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AmrEljako\\FawaterkPayment\\FawaterkServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
