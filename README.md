@@ -1,4 +1,8 @@
 # Fawaterk Payment Integration for Laravel
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amreljako/fawaterk-payment.svg?style=flat-square)](https://packagist.org/packages/amreljako/fawaterk-payment)
+[![GitHub Stars](https://img.shields.io/github/stars/amreljako/fawaterk-payment.svg?style=flat-square)](https://github.com/amreljako/fawaterk-payment/stargazers)
+[![Total Downloads](https://img.shields.io/packagist/dt/amreljako/fawaterk-payment.svg?style=flat-square)](https://packagist.org/packages/amreljako/fawaterk-payment)
+[![License](https://img.shields.io/packagist/l/amreljako/fawaterk-payment.svg?style=flat-square)](https://packagist.org/packages/amreljako/fawaterk-payment/license)
 
 A Laravel package to easily integrate with the [Fawaterk Payment API](https://fawaterk.com).  
 It allows you to create invoices, fetch invoice status, and securely handle payment webhooks.
